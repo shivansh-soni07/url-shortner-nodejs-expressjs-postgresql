@@ -1,0 +1,76 @@
+ #user-links-table {
+  font-family: sans-serif;
+  border-collapse: collapse;
+   border-radius: 10%;
+  width: 100%;
+  
+  margin-bottom: 20px;
+}
+
+#user-links-table th,
+#user-links-table td {
+  padding: 10px;
+  
+  text-align: left;
+  border: 2px solid #100202;
+  /* border-radius: 5%; */
+}
+
+#user-links-table th {
+    color: white;
+  background-color: #004736;
+  font-weight: bold;
+}
+
+#user-links-table tr:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+#user-links-table td:last-child {
+  text-align: center; /* Center the validity status */
+}
+
+ 
+#user-links-container {
+    background-color: #bbffe9; /* Light gray background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  #link-form h1 {
+    color: #333; /* Darker text for heading */
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #link-form input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #040101;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  #link-form input:focus {
+    outline: none; /* Remove default outline */
+    border-color: #3498db; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); /* Blue glow on focus */
+  }
+  
+  #link-form button {
+    background-color: #3498db; /* Blue background */
+    color: #ffffff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  #link-form button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  

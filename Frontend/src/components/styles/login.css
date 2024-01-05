@@ -1,0 +1,132 @@
+/* Overall container */
+.mt-1 {
+    background-color: #f5f5f5; /* Light gray background for contrast */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Heading */
+  .my-2 {
+    color: #333; /* Darker text for heading */
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Form fields */
+  .form-label {
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .form-control:focus {
+    border: 1px solid #000000;
+    outline: none; /* Remove default outline */
+    border-color: #3498db; /* Blue border on focus */
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5); /* Blue glow on focus */
+  }
+  
+  .form-text {
+    color: #000000; /* Lighter gray for helper text */
+    font-size: 14px;
+  }
+  
+  /* Buttons */
+  .btn-primary {
+    background-color: #ff5722; /* Orange for primary action */
+    color: #fff; /* White text */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e64a19; /* Darker orange on hover */
+  }
+  
+  /* Additional styling for signup button */
+  .btn-signup {
+    background-color: #3498db; /* Blue for signup */
+    margin-left: 10px; /* Space between buttons */
+  }
+  
+  .btn-signup:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+
+  /* Overall container with linear gradient background */
+.mt-1 {
+    background: linear-gradient(to right, #f0f0f0, #e0e0e0); /* Light gray gradient */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  /* Heading with subtle gradient effect */
+  .my-2 {
+    color: #020000;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    background: #ffdde7 ;/* Slight gradient for a lift */
+    padding: 10px 20px; /* Add padding for visual separation */
+    border-radius: 5px; /* Rounded corners for the heading */
+  }
+  
+  /* Form fields with gradient borders */
+  .form-control {
+    width: 100%;
+    border: 1px solid #000000;
+    padding: 10px;
+    /* border: 1px solid transparent; */
+    border-radius: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    background-image: #ffe4ec; /* Gradient for input fields */
+  }
+  
+  .form-control:focus {
+    outline: none;
+    border-color: #3498db;
+    box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+  }
+  
+  /* Buttons with gradient background and hover effect */
+  .btn-primary {
+    background:#5c1e37; /* Orange gradient */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+  }
+  
+  .btn-primary:hover {
+    background:#370018; /* Reverse gradient on hover */
+  }
+  
+  .btn-signup {
+    background: linear-gradient(to right, #3498db, #2980b9); /* Blue gradient */
+    margin-left: 10px;
+  }
+  
+  .btn-signup:hover {
+    background: linear-gradient(to right, #2980b9, #3498db); /* Reverse gradient on hover */
+  }
+  
