@@ -13,8 +13,8 @@ const JWT_SECRET = "Shivansh07"; // Your JWT secret key
 const pool = new Pool({
     user: 'postgres',
     host: 'localhost',
-    database: 'url-short',
-    password: '0000',
+    database: 'shortify',
+    password: '1234',
     port: 5432, // Default port for PostgreSQL
   });
 const router = express.Router();

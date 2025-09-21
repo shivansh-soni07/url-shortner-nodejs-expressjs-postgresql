@@ -11,14 +11,14 @@ const port = 5000;
 const pool = new Pool({
   user: 'postgres',
   host: 'localhost',
-  database: 'url-short',
-  password: '0000',
+  database: 'shortify',
+  password: '1234',
   port: 5432, // Default port for PostgreSQL
 });
 const client = connectToPostgres();
 
-createUrlTable(pool);
 createUserTable(pool);
+createUrlTable(pool);
 
 app.use(cors());
 app.use(express.json());
